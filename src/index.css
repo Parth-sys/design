@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.btn1{
+  
+  color:rgb(211, 43, 43);
+  border-top-color: rgb(241, 52, 19);
+  border-bottom-color: rgb(233, 54, 22);
+  border-left-color: rgb(228, 56, 26);
+  border-right-color: rgb(221, 50, 20);
+  background-color: white;
+
+}
