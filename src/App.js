@@ -29,7 +29,7 @@ function App() {
 
     <BrowserRouter>
       <Routes>
-        <Route path="/" exact element={<App></App>}></Route>
+        <Route path="/" ></Route>
         <Route path="/Admin" exact element={<Admin></Admin>}></Route>
       </Routes>
     
