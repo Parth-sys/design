@@ -23,26 +23,26 @@ function Footer(){
  
         <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
         <div>
-     <a className="navbar-brand0" href="#" style={{fontFamily:"Pacifico,cursive",color:"black",fontSize:"30px"}}>
+     <a className="navbar-brand0" href="/" style={{fontFamily:"Pacifico,cursive",color:"black",fontSize:"30px"}}>
        <img src="logo.png" alt="logo" width="50" height="54" ></img>
        Opic
     <div>
-      <a href="" className="me-4 link-grayish">
+      <a href="/" className="me-4 link-grayish">
         <FaFacebook/>
       </a>
-      <a href="" className="me-4 link-grayish">
+      <a href="/" className="me-4 link-grayish">
         <FaInstagramSquare></FaInstagramSquare>
       </a>
-      <a href="" className="me-4 link-grayish">
+      <a href="/" className="me-4 link-grayish">
        <FaGoogle></FaGoogle>
       </a>
-      <a href="" className="me-4 link-grayish">
+      <a href="/" className="me-4 link-grayish">
       <FaTwitter></FaTwitter>
       </a>
-      <a href="" className="me-4 link-grayish">
+      <a href="/" className="me-4 link-grayish">
        <FaLinkedin></FaLinkedin>
       </a>
-      <a href="" className="me-4 link-grayish">
+      <a href="/" className="me-4 link-grayish">
        <FaGithub></FaGithub>
       </a>
     </div>
@@ -69,16 +69,16 @@ function Footer(){
             Services
           </h6>
           <p>
-            <a href="#!" className="text-reset bordernone">Angular</a>
+            <a href="/" className="text-reset bordernone">Angular</a>
           </p>
           <p>
-            <a href="#!" className="text-reset bordernone" >React</a>
+            <a href="/" className="text-reset bordernone" >React</a>
           </p>
           <p>
-            <a href="#!" className="text-reset bordernone">Vue</a>
+            <a href="/" className="text-reset bordernone">Vue</a>
           </p>
           <p>
-            <a href="#!" className="text-reset bordernone">Laravel</a>
+            <a href="/" className="text-reset bordernone">Laravel</a>
           </p>
         </div>
       
@@ -90,16 +90,16 @@ function Footer(){
             Quick links
           </h6>
           <p>
-            <a href="#!" className="text-reset bordernone">Pricing</a>
+            <a href="/" className="text-reset bordernone">Pricing</a>
           </p>
           <p>
-            <a href="#!" className="text-reset bordernone">Bikes</a>
+            <a href="/" className="text-reset bordernone">Bikes</a>
           </p>
           <p>
-            <a href="#!" className="text-reset bordernone">bookings</a>
+            <a href="/" className="text-reset bordernone">bookings</a>
           </p>
           <p>
-            <a href="#!" className="text-reset bordernone">Help</a>
+            <a href="/" className="text-reset bordernone">Help</a>
           </p>
         </div>
         

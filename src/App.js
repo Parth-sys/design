@@ -6,13 +6,43 @@ import Navbar from './Navbar';
 import {GiFishingBoat,GiCommercialAirplane} from 'react-icons/gi'
 import Footer from './Footer';
 import Contact from './Contactus';
-
+import Admin from './Admin';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  
+  
+} from 'react-router-dom'
 function App() {
+
+
+
+
+
+
 
 
   return (
     <div className='App'>
-      
+
+
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" exact element={<App></App>}></Route>
+        <Route path="/Admin" exact element={<Admin></Admin>}></Route>
+      </Routes>
+    
+    
+    </BrowserRouter>
+
+
+
+
+
+
+
+
        
   <Navbar></Navbar>
 
@@ -25,7 +55,7 @@ function App() {
 
 
        <div  style={{marginLeft:"-10"}}>
-       <img src="Side.png "  ></img>
+       <img src="Side.png " alt='name'  ></img>
      </div>
 
      <div >
@@ -42,7 +72,7 @@ function App() {
      </div>
  
      <div >
-       <img src="boy.png" width="250px"></img>
+       <img src="boy.png" alt='name' width="250px"></img>
      </div>
            </div>
 
@@ -69,7 +99,7 @@ function App() {
 
 
        <div >
-       <img src="worker.png" width="250px"></img>
+       <img src="worker.png" alt='name' width="250px"></img>
      </div>
 
      <div >
@@ -109,18 +139,18 @@ function App() {
 
        <div >
         <h4>Air</h4>
-        <img src="14523569.jpg"  width="100px"></img>
+        <img src="14523569.jpg"  alt="name" width="100px"></img>
      </div>
 
      <div className='active1'>
         <h4>Ocen</h4>
-        <img src="25992532.jpg"  width="100px"></img>
+        <img src="25992532.jpg"  alt='name' width="100px"></img>
      </div>
 
 
      <div>
         <h4>Road</h4>
-        <img src="26134196.jpg"  width="100px"></img>
+        <img src="26134196.jpg"  alt="name" width="100px"></img>
      </div>
     
   </div>
@@ -147,7 +177,7 @@ function App() {
          
       <div >
         
-        <img src="boy2.png"  width="400px" height="300px"></img>
+        <img src="boy2.png" alt="name"  width="400px" height="300px"></img>
      </div>
 
 

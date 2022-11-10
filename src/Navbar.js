@@ -12,7 +12,7 @@ function Navbar(){
         <div className="container-fluid" >
  
    <div>
-     <a className="navbar-brand" href="#" style={{fontFamily:"Pacifico,cursive"}}>
+     <a className="navbar-brand" href="/" style={{fontFamily:"Pacifico,cursive"}}>
        <img src="logo.png" alt="logo" width="30" height="24" ></img>
        Opic
      </a>

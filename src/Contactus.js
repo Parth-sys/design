@@ -20,7 +20,7 @@ function Contact(){
      <p>+112 009394333</p>
    
     <h4>Over<span className="s"> 50,000</span> Client<br/> All Over the World</h4>
-      <img src="contact us.png" width="300px"></img>    
+      <img src="contact us.png" alt="name" width="300px"></img>    
 
  </div>
 
@@ -63,7 +63,7 @@ function Contact(){
  </div>
 
 <div >
-    <img src="last.png" width="300px"></img>
+    <img src="last.png" alt="name" width="300px"></img>
 </div>
 
 </div>
