@@ -63,7 +63,7 @@ function Contact(){
  </div>
 
 <div >
-    <img src="last.png" alt="name" width="300px"></img>
+    <img src="last.png" alt="name" style={{width:"13rem"}}></img>
 </div>
 
 </div>

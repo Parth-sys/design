@@ -27,20 +27,20 @@ function Home(){
      </div>
 
      <div >
-       <p style={{fontSize:"15px",fontWeight:"bold"}}>ALL FREIGHT SOLUTIONS</p>
+       <p style={{fontSize:"1rem",fontWeight:"bold"}}>ALL FREIGHT SOLUTIONS</p>
        
-       <p style={{fontWeight:"bold",fontSize:"40px",fontFamily:"sanserif"}}>Providing Full Range<br/>
+       <p style={{fontWeight:"bold",fontSize:"2rem",fontFamily:"sanserif"}}>Providing Full Range<br/>
        
         Of Tranformation</p>
 
-      <p style={{color:"Red" ,fontSize:"40px",marginTop:"-10px"}}> Worldwide</p>
+      <p style={{color:"Red" ,fontSize:"2rem",marginTop:"-10px"}}> Worldwide</p>
 
        
        <button className='btn-default' style={{backgroundColor:"black",color:"white"}} >GET SOLUTION</button>
      </div>
  
      <div >
-       <img src="boy.png" alt='name' width="250px"></img>
+       <img src="boy.png" alt='name' style={{width:"13rem"}}></img>
      </div>
            </div>
 
@@ -71,12 +71,12 @@ function Home(){
      </div>
 
      <div >
-       <p style={{fontSize:"15px",fontWeight:"bold" ,color:"red"}}>Providing Logistic Services Worldwide</p>
+       <p style={{fontSize:"1rem",fontWeight:"bold" ,color:"red"}}>Providing Logistic Services Worldwide</p>
        
-       <p style={{fontWeight:"bold",fontSize:"30px",fontFamily:"serif"}}>About Lapstic Solutions<br/>
+       <p style={{fontWeight:"bold",fontSize:"1.5rem",fontFamily:"serif"}}>About Lapstic Solutions<br/>
 
       Trasport And Logistic</p>
-      <p style={{fontWeight:"bold",fontSize:"10px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/> 
+      <p style={{fontWeight:"bold",fontSize:"1rem"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/> 
         sed do eiusmod tempor incididunt ut labore et dolore</p>
 
 
@@ -127,9 +127,9 @@ function Home(){
 
 
 
-  <div className='container mt-5 mb-2 p-2'>
+  <div className='container mt-5 mb-2 p-1'>
 <div className='row'>
-<div className='d-flex  col-12' style={{justifyContent:"space-around"}} >
+<div className='d-flex  col-10' style={{justifyContent:"space-between"}} >
 
       <div>
         <h4>Why Best <span style={{color:"red"}}> Logistics?</span></h4>
@@ -158,7 +158,7 @@ function Home(){
 
 <div className='container mt-5 mb-2 p-2 back'  >
 <div className='row'>
-<div className='d-flex col-12' style={{justifyContent:"space-between"}} >
+<div className='d-flex col-12 flex-flow-row' style={{justifyContent:"space-between"}} >
 
 <div className="card " style={{width:"12rem",height:"20rem"}}>
 
