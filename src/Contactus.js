@@ -7,7 +7,7 @@ function Contact(){
 
 <div className='container mt-5 mb-2 p-2 '  >
 <div className='row'>
-<div className='d-flex ' style={{justifyContent:"space-around"}} >
+<div className='d-flex col-10' style={{justifyContent:"space-around"}} >
 
  <div>
     <h3>Contact Us</h3>
@@ -52,9 +52,9 @@ function Contact(){
 </div>
 
 
-<div className='container mt-5 mb-2 p-2 active2'  >
-<div className='row'>
-<div className='d-flex ' style={{justifyContent:"space-around"}} >
+<div className='container mt-5 mb-2  active2'  >
+<div className='row ml-2'>
+<div className='d-flex col-12 p-1' style={{justifyContent:"space-around"}} >
 
  <div>
   <h4 style={{fontWeight:"bold"}}>Lets Co-create the Logistic<br/> Solution For your Business</h4>

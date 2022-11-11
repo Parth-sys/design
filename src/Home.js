@@ -1,50 +1,18 @@
-
-import React from 'react';
+import React from 'react'
+import Navbar from './Navbar'
+import Contact from './Contactus'
+import {GiFishingBoat,GiCommercialAirplane} from 'react-icons/gi'
 import './App.css';
 import 'bootstrap' ;
-import Admin from './Admin';
+import Footer from './Footer';
 
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  
-  
-} from 'react-router-dom'
-import Home from './Home'
-
-function App() {
+function Home(){
 
 
-   
+    return(
 
-
-
-
-
-  return (
-    <div className='App'>
-
-
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home></Home>} ></Route>
-        <Route path="/Admin" exact element={<Admin></Admin>}></Route>
-     
-      </Routes>
-    
-    
-    </BrowserRouter>
-
-
-    
-
-
-
-
-{/*
-       
-  <Navbar></Navbar>
+              <>
+        <Navbar></Navbar>
 
 
   
@@ -94,7 +62,7 @@ function App() {
 
 <div className='container mt-5 mb-2'>
 <div className='row'>
-<div className='d-flex ' style={{justifyContent:"space-around"}} >
+<div className='d-flex  col-12' style={{justifyContent:"space-around"}} >
 
 
 
@@ -128,11 +96,11 @@ function App() {
 
 
 <div className='container mt-5 mb-2'>
-<div className='row'>
+<div className='row '>
       <h3>Transport And Logistic<span style={{color:"red"}}> Solutions</span></h3>
      <div>
      </div>
-<div className='d-flex mt-1 ' style={{justifyContent:"space-around"}} >
+<div className='d-flex mt-1 col-12  ' style={{justifyContent:"space-around"}} >
 
 
 
@@ -161,7 +129,7 @@ function App() {
 
   <div className='container mt-5 mb-2 p-2'>
 <div className='row'>
-<div className='d-flex ' style={{justifyContent:"space-between"}} >
+<div className='d-flex  col-12' style={{justifyContent:"space-around"}} >
 
       <div>
         <h4>Why Best <span style={{color:"red"}}> Logistics?</span></h4>
@@ -190,9 +158,10 @@ function App() {
 
 <div className='container mt-5 mb-2 p-2 back'  >
 <div className='row'>
-<div className='d-flex ' style={{justifyContent:"space-around"}} >
+<div className='d-flex col-12' style={{justifyContent:"space-between"}} >
 
-<div class="card" style={{width:"12rem",height:"20rem"}}>
+<div className="card " style={{width:"12rem",height:"20rem"}}>
+
   <div style={{display:"flex",margin:"5px"}}>
   <img src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  className="card-img-top" alt="name"
   
@@ -200,12 +169,12 @@ function App() {
      <h6 className='h'>Sachin T <br/> <span style={{color:"gray"}}>software dev</span> </h6>
    
   </div>
-    <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div className="card-body">
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>
 
-<div class="card" style={{width:"12rem",height:"20rem"}}>
+<div className="card" style={{width:"12rem",height:"20rem"}}>
   <div style={{display:"flex",margin:"5px"}}>
   <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  className="card-img-top" alt="name"
   
@@ -213,11 +182,11 @@ function App() {
    <h6 className='h'>Virat K <br/> <span style={{color:"gray"}}>software Eng</span> </h6>
    
   </div>
-    <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div className="card-body">
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>
-<div class="card" style={{width:"12rem",height:"20rem"}}>
+<div className="card" style={{width:"12rem",height:"20rem"}}>
   <div style={{display:"flex",margin:"5px"}}>
   <img src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  className="card-img-top" alt="name"
   
@@ -225,8 +194,8 @@ function App() {
    <h6 className='h'>Ms D <br/> <span style={{color:"gray"}}>Full stack Dev</span> </h6>
    
   </div>
-    <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div className="card-body">
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
 </div>
 
@@ -241,10 +210,8 @@ function App() {
 
 
   <Footer></Footer>
-
-  */}
-     </div>
-  );
+     
+     </>
+    )
 }
-
-export default App;
+export default Home;

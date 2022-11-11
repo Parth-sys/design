@@ -1,10 +1,36 @@
 import React from 'react';
 
-
-
+import { useState } from 'react';
+import Modal from 'react-bootstrap/Modal'
 
 function Navbar(){
 
+
+
+  const [name,setname]=useState("");
+
+  const [email,setemail]=useState("")
+  const [password,setpassword]=useState("")
+
+const [show,setshow]=useState(false)
+ 
+
+const handleshow=()=>{
+         
+ setshow(true)
+};
+const handleClose=()=>(setshow(false))
+
+
+
+
+
+
+
+
+
+
+   
 
     return( 
       <>
@@ -47,7 +73,7 @@ function Navbar(){
      
          <ul className='navbar-nav  justify-content-end' >
          <li className='nav-item'>
-           <button className='btn1 btn-default nav-link '> Get In touch</button>
+           <button className='btn1 btn-default nav-link '   onClick={()=>handleshow()}> Get In touch</button>
            </li>
         
          </ul>
@@ -56,6 +82,52 @@ function Navbar(){
      </nav>
      
  
+
+
+
+     <div>
+
+<Modal show={show} >
+<Modal.Header closeButton onClick={handleClose}>
+    <Modal.Title>Get In Touch</Modal.Title>
+</Modal.Header>
+
+<Modal.Body>
+ <div >
+
+    
+<input className="form-control"  placeholder="name"  value={name}
+ onChange={(e)=>{setname(e.target.value)}} ></input><br/>
+
+  
+ <input  className="form-control" type="email" placeholder="email" value={email}   
+    onChange={(e)=>{setemail(e.target.value)}}></input><br/>
+
+ <input  className="form-control"   placeholder="password"  value={password} 
+  onChange={(e)=>{setpassword(e.target.value)}}></input><br/>
+ 
+ </div>
+ 
+</Modal.Body>
+
+<Modal.Footer>
+    <button  className="btn btn-primary"   >send</button>
+   
+</Modal.Footer>
+</Modal>
+
+
+
+
+    </div>  
+
+
+
+
+
+
+
+
      </>
     )
 }
