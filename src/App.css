@@ -13,6 +13,56 @@
   }
 }
 
+@media screen and (max-width:375px) {
+  .d-flex .col-12 {
+      justify-content: center;
+      margin: 5px;
+      padding: 5px;
+   }
+   button{width: auto;
+   }
+  
+  p{
+    font-size: small;
+  }
+  
+  h3{
+    font-size: small;
+  }
+  h2{
+    font-size: small;
+  }
+  h4{
+    font-size: small;
+  }
+  
+  
+  
+   img{
+    width:50%;
+    height: 50%;
+   }
+   .card-text{
+    font-size: small;
+   
+  
+  }
+  
+  #man{
+    display: none;
+  }
+  
+  
+  h6{
+    font-size: 10px
+  }
+  #m{
+    display: none
+  }
+  
+  }
+
+  
 
 
 

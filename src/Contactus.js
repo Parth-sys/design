@@ -20,7 +20,7 @@ function Contact(){
      <p>+112 009394333</p>
    
     <h4>Over<span className="s"> 50,000</span> Client<br/> All Over the World</h4>
-      <img src="contact us.png" alt="name" width="300px"></img>    
+      <img id="m" src="contact us.png" alt="name" width="300px"></img>    
 
  </div>
 
